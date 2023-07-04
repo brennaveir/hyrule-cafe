@@ -22,7 +22,11 @@ const menu = [
 const menuSection = document.querySelector('.menu');
 
 window.addEventListener('DOMContentLoaded', function () {
-    let showMenu = menu.map(function (item) {
+    displayMenuItems(menu)
+});
+
+function displayMenuItems (menuItems) {
+    let showMenu = menuItems.map(function (item) {
         console.log(item)
         return ` <article class="singleItem">
         <!-- single menu item -->
@@ -44,4 +48,4 @@ window.addEventListener('DOMContentLoaded', function () {
     });
     showMenu = showMenu.join('');
     menuSection.innerHTML = showMenu;
-})
+};
