@@ -1,0 +1,10 @@
+body {
+    background-image: url("../images/coverImg.jpg");
+    background-repeat: no-repeat;
+    background-color: darkcyan;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
