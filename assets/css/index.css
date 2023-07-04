@@ -5,7 +5,11 @@ body {
 }
 
 #hyrule-cafe {
-    width: 300px;
+    width: 360px;
+}
+
+#hyrule-cafe:hover{
+content: url("../images/hyruleCafe.png")
 }
 
 
@@ -20,4 +24,8 @@ body {
 .navbar {
     display: flex;
     justify-content: space-around;
+}
+
+.title-image {
+    width:130px;
 }
