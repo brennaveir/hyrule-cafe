@@ -1,15 +1,21 @@
 body {
+    background-color: darkcyan;
     background-image: url("../images/coverImg.jpg");
     background-repeat: no-repeat;
-    background-color: darkcyan;
+}
+
+.cover-photo {
+
+    background-size: 100% 100%;
+
 }
 
 #hyrule-cafe {
     width: 360px;
 }
 
-#hyrule-cafe:hover{
-content: url("../images/hyruleCafe.png")
+#hyrule-cafe:hover {
+    content: url("../images/hyruleCafe.png")
 }
 
 
@@ -17,7 +23,7 @@ content: url("../images/hyruleCafe.png")
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content:center;
+    align-content: center;
     justify-content: center;
 }
 
@@ -27,5 +33,29 @@ content: url("../images/hyruleCafe.png")
 }
 
 .title-image {
-    width:130px;
+    width: 130px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+#about-title:hover {
+    content: url("../images/about.png");
+}
+
+.about-desc {
+    font-size: 30px;
+    text-align: center;
+}
+
+#menu-image:hover {
+    content: url("../images/menu.png")
+}
+
+#contact-title:hover {
+    content: url("../images/contact.png")
 }

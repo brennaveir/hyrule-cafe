@@ -9,47 +9,56 @@
     <title>Hyrule Cafe</title>
 </head>
 
+
 <body>
     <!-- Title -->
     <header class="title">
-        <img src="./assets/images/hyruleCafePlain.png" id="hyrule-cafe"/>
-     <!-- Nav Bar -->
-    <nav class="navbar">
-        <!-- about -->
-        <button>About</button>
-        <!-- menu -->
-        <button>Menu</button>
-        <!-- contact -->
-        <button>Contact</button>
-    </nav>
+        <img src="./assets/images/hyruleCafePlain.png" id="hyrule-cafe" />
+        <!-- Nav Bar -->
+        <nav class="navbar">
+            <!-- about -->
+            <a href="#about">About</a>
+            <!-- menu -->
+            <a href="#menu"> Menu</a>
+            <!-- contact -->
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-   
-    <section class="about">
+
+    <section class="about" id="about">
         <!-- about section -->
         <div class="section-title">
-            <img src="./assets/images/aboutPlain.png" class="title-image"alt="about" />
+            <img src="./assets/images/aboutPlain.png" id="about-title" class="title-image" alt="about" />
         </div>
+        <p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi at nostrum vitae
+            pariatur, debitis excepturi deleniti vero neque porro minus saepe. Pariatur tempore numquam illum suscipit
+            impedit cupiditate nulla esse voluptatibus voluptatum! Nesciunt reiciendis odio quam aut voluptatem nihil,
+            debitis tempore culpa quaerat velit veniam hic, a corporis ipsum et! Nulla deserunt ad dicta commodi numquam
+            quae, autem doloremque, optio illum, voluptate ipsam accusantium quo! Et asperiores, eaque est voluptatum at
+            accusantium! Et ad odio possimus deleniti? Facere, beatae ipsam. Magnam fugiat libero maiores ipsum
+            consequuntur, soluta unde voluptatum esse, quia quo repellendus eveniet. Earum delectus quisquam nesciunt
+            omnis quia?</p>
     </section>
-    
-    <div class="section-title">
-        <img src="./assets/images/menuPlain.png" class="title-image" alt="menu"/>
+
+    <div class="section-title" id="menu">
+        <img src="./assets/images/menuPlain.png" id="menu-image" class="title-image" alt="menu" />
     </div>
     <!-- filter buttons -->
     <div class="btn-container">
         <button class="filter-btn" type="button" data-id="all">
-           All
-        </button>  
+            All
+        </button>
         <button class="filter-btn" type="button" data-id="entree">
-          Entree 
-        </button> 
+            Entree
+        </button>
         <button class="filter-btn" type="button" data-id="dessert">
-           Dessert
-        </button> 
+            Dessert
+        </button>
         <button class="filter-btn" type="button" data-id="beverage">
-           Beverage
-        </button> 
+            Beverage
+        </button>
     </div>
-    <section class="menu">
+    <section class="menu" >
         <!-- menu -->
         <article class="singleItem">
             <!-- single menu item -->
@@ -61,18 +70,18 @@
                     <h4>
                         <!-- item name -->
                     </h4>
-                    </header>
-                    <p class="item-descr">
-                        <!-- item description -->
-                    </p>
-                
+                </header>
+                <p class="item-descr">
+                    <!-- item description -->
+                </p>
+
             </div>
         </article>
     </section>
     <footer>
         <!-- contact -->
-        <div class="section-title">
-            <img src="./assets/images/contactPlain.png" class="title-image" alt="contact"/>
+        <div class="section-title" id="contact">
+            <img src="./assets/images/contactPlain.png" id="contact-title" class="title-image" alt="contact" />
         </div>
     </footer>
     <script src="./assets/js/index.js"></script>
