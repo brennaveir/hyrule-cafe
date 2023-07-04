@@ -4,7 +4,20 @@ body {
     background-color: darkcyan;
 }
 
+#hyrule-cafe {
+    width: 300px;
+}
+
+
 .title {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content:center;
     justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
 }
