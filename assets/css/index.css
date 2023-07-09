@@ -9,8 +9,15 @@ html {
     margin: 0;
    }
 
-.title {
-    background-color: teal;
+ a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+ }  
+
+ .title {
+    background-color: #05445E;
 }
 
 #hyrule-cafe {
@@ -33,6 +40,7 @@ html {
 .navbar {
     display: flex;
     justify-content: space-around;
+    padding: 10px
 }
 
 .title-image {
@@ -46,7 +54,7 @@ html {
 }
 
 #about {
-    background-color: teal;
+    background-color: #05445E;
     margin: 65px;
 }
 
@@ -58,11 +66,28 @@ html {
     font-size: 30px;
     text-align: center;
     padding: 0 10px 40px 10px;
+    color: white;
 }
 
 .menu {
-    background-color: teal;
+    background-color: #05445E;
     margin: 65px;  
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-btn {
+    margin: 10px;
+}
+
+.menu-section {
+    color: White;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 
 #menu-image:hover {
@@ -74,5 +99,5 @@ html {
 }
 
 #contact {
-    background-color: teal;
+    background-color: #05445E;
 }
