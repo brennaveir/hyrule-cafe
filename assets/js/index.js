@@ -19,7 +19,7 @@ const menu = [
     }
 ]
 
-const menuSection = document.querySelector('.menu');
+const menuSection = document.querySelector('.menu-section');
 const filterBtns = document.querySelectorAll('.filter-btn')
 
 //load items

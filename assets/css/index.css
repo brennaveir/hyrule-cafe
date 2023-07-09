@@ -2,22 +2,25 @@ body {
     background-color: darkcyan;
     background-image: url("../images/coverImg.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0
 }
+html {
+    margin: 0;
+   }
 
-.cover-photo {
-
-    background-size: 100% 100%;
-
+.title {
+    background-color: teal;
 }
 
 #hyrule-cafe {
     width: 360px;
+    margin: 30px;
 }
 
 #hyrule-cafe:hover {
     content: url("../images/hyruleCafe.png")
 }
-
 
 .title {
     display: flex;
@@ -39,9 +42,13 @@ body {
 .section-title {
     display: flex;
     justify-content: center;
-    padding: 100px;
+    padding: 50px;
 }
 
+#about {
+    background-color: teal;
+    margin: 65px;
+}
 
 #about-title:hover {
     content: url("../images/about.png");
@@ -50,6 +57,12 @@ body {
 .about-desc {
     font-size: 30px;
     text-align: center;
+    padding: 0 10px 40px 10px;
+}
+
+.menu {
+    background-color: teal;
+    margin: 65px;  
 }
 
 #menu-image:hover {
@@ -58,4 +71,8 @@ body {
 
 #contact-title:hover {
     content: url("../images/contact.png")
+}
+
+#contact {
+    background-color: teal;
 }
