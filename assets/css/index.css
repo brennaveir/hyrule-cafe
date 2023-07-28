@@ -16,9 +16,6 @@ html {
     padding: 10px;
  }  
 
- .title {
-    background-color: #05445E;
-}
 
 #hyrule-cafe {
     width: 360px;
@@ -35,6 +32,7 @@ html {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    background-color: #05445E;
 }
 
 .navbar {
@@ -63,7 +61,7 @@ html {
 }
 
 .about-desc {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding: 0 10px 40px 10px;
     color: white;
@@ -72,6 +70,7 @@ html {
 .menu {
     background-color: #05445E;
     margin: 65px;  
+    /* height: calc(100vh - 100px) */
 }
 
 .btn-container {
@@ -88,10 +87,28 @@ html {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    flex-wrap: wrap;
+    height: calc(300vh - 300px);
 }
 
 #menu-image:hover {
     content: url("../images/menu.png")
+}
+
+.singleItem {
+display:flex;
+}
+
+.item-info {
+    inline-size: 150px;
+    overflow-wrap: break-word;
+}
+
+
+.menu-pic {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 135px;
 }
 
 #contact-title:hover {
