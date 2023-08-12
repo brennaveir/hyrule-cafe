@@ -120,7 +120,7 @@ a {
         background-size: cover;
         margin: 0
     }
-    
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -131,22 +131,44 @@ a {
         background-size: cover;
         margin: 0
     }
+
     .menu {
         width: calc(100vw - 100px);
     }
+
     .about {
         width: calc(100vw - 100px);
     }
 }
 
 @media screen and (max-width: 767px) {
+    #hyrule-cafe {
+        width: 246px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-info {
+        inline-size: 114px;
+    }
+
     body {
         background-color: #05445E;
         background-size: cover;
         margin: 0
     }
+
     .menu-section {
-        padding:0;
-        height:auto;
+        padding: 0;
+        height: auto;
+        align-content: center;
     }
 }
