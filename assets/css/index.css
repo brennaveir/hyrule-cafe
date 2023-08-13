@@ -78,10 +78,11 @@ a {
 .menu-section {
     color: White;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    align-content:flex-start;
     padding: 25px;
     flex-wrap: wrap;
-    height: calc(150vh - 100px);
+    height: calc(100vh - 100px);
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -92,12 +93,13 @@ a {
 
 .singleItem {
     display: flex;
+
 }
 
 .item-info {
     inline-size: 150px;
     overflow-wrap: break-word;
-    font-size: 98%;
+    font-size: 100%;
 }
 
 
@@ -105,7 +107,7 @@ a {
     margin-right: 10px;
     margin-bottom: 10px;
     /* width: 250px; */
-    width:35%
+    /* width:35% */
 }
 
 #contact-title:hover {
@@ -137,13 +139,13 @@ a {
     }
 
     .menu {
-        width: calc(100vw - 100px);
+        /* width: calc(100vw - 100px); */
     }
 
     .menu-section {
         overflow-x: hidden;
         overflow-y: auto;
-        /* height: calc(100vh - 238px); */
+        height: calc(200vh - 200px);
     }
 
     .about {
@@ -151,7 +153,7 @@ a {
     }
 
     .menu-pic {
-        width:35%
+        /* width:35% */
     }
 }
 
@@ -185,7 +187,8 @@ a {
         overflow-x: hidden;
         overflow-y: auto;
         align-content: center;
-        flex-wrap:nowrap
+        flex-wrap:nowrap;
+        flex-direction:column;
     }
 
     .singleItem {
