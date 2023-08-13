@@ -143,6 +143,180 @@ const menu = [
         description: "The Goron spice used in preparing this crab pairs perfectly with the flavor of its meat.",
         image: "./assets/images/crabStir-Fry.png"
      },
+     {
+      name: "Meat and Seafood Fry",
+      category: "entree",
+      description: "A filling dish made by cooking fresh seafood and meat together.",
+      image: "./assets/images/meatAndSeafoodFry.png"
+   },
+   {
+      name: "Prime Meat and Seafood Fry",
+      category: "entree",
+      description: "This comfort dish is made with choice cuts of meat and seafood.",
+      image: "./assets/images/primeMeatAndSeafoodFry.png"
+   },
+   {
+      name: "Gourmet Meat and Seafood Fry",
+      category: "entree",
+      description: "A marriage of the choicest cuts of meat and seafood. As delicious as it is filling!",
+      image: "./assets/images/gourmetMeatAndSeafoodFry.png"
+   },
+   {
+      name: "Salt Grilled Greens",
+      category: "entree",
+      description: "A health-boosting dish made with leafy greens and a touch of salt.",
+      image: "./assets/images/saltGrilledGreens.png"
+   },
+   {
+      name: "Salt Grilled Mushrooms",
+      category: "entree",
+      description: "A basic mushroom dish made by lightly salting mushrooms and grilling them.",
+      image: "./assets/images/saltGrilledGreens.png"
+   },
+   {
+      name: "Salt Grilled Meat",
+      category: "entree",
+      description: "Short on ingredients? Just rub some meat in salt and cook it for a simple, tasty dish.",
+      image: "./assets/images/saltGrilledMeat.png"
+   },
+   {
+      name: "Salt Grilled Prime Meat",
+      category: "entree",
+      description: "A simple yet exquisite dish made by grilling high-quality meat on top of rock salt.",
+      image: "./assets/images/saltGrilledPrimeMeat.png"
+   },
+   {
+      name: "Salt Grilled Gourmet Meat",
+      category: "entree",
+      description: "This lavish grilled dish makes liberal use of high-quality cuts of meat",
+      image: "./assets/images/saltGrilledGourmetMeat.png"
+   },
+   {
+      name: "Salt Grilled Fish",
+      category: "entree",
+      description: "A simple dish made by rolling a whole fish in natural rock salt before grilling it",
+      image: "./assets/images/saltGrilledFish.png"
+   },
+   {
+      name: "Salt Grilled Crab",
+      category: "entree",
+      description: "Nine out of ten fishermen agree crab is best enjoyed grilled and with just a bit of salt.",
+      image: "./assets/images/saltGrilledCrab.png"
+   },
+   {
+      name: "Herb Saute",
+      category: "side-dish",
+      description: "A fragrant mixture of herbs and spices. It's easily recognized by its unique aroma.",
+      image: "./assets/images/herbSaute.png"
+   },
+   {
+      name: "Fragrant Mushroom Saute",
+      category: "side-dish",
+      description: "The fragrant aroma of this sautéed spice and mushroom dish makes your mouth water.",
+      image: "./assets/images/fragrantMushroomSaute.png"
+   },
+   {
+      name: "Pepper Steak",
+      category: "entree",
+      description: "The meat has been cooked in crushed peppers to accents its natural taste.",
+      image: "./assets/images/pepperSteak.png"
+   },
+   {
+      name: "Pepper Seafood",
+      category: "entree",
+      description: "The pepper seeds grilled with this seafood draw out its taste and pleasant aroma.",
+      image: "./assets/images/pepperSeafood.png"
+   },
+   {
+      name: "Fragrant Seafood Stew",
+      category: "entree",
+      description: "A tasty dish of seafood and stambulb cooked in oil. Its aroma will whet your appetite.",
+      image: "./assets/images/fragrantSeafoodStew.png"
+   },
+   {
+      name: "Deep-Fried Drumstick",
+      category: "entree",
+      description: "A drumstick fried in high-quality oil. It's full of out-of-this-world flavor.",
+      image: "./assets/images/deepFriedDrumstick.png"
+   },
+   {
+      name: "Deep-Fried Thigh",
+      category: "entree",
+      description: "A deep-fried thigh so good, it's hard to take bites that aren't too big!",
+      image: "./assets/images/deepFriedThigh.png"
+   },
+   {
+      name: "Deep-Fried Bird Roast",
+      category: "entree",
+      description: "A deep-fried whole bird of the highest grade. It's a standard item in any celebratory feast.",
+      image: "./assets/images/deepFriedBirdRoast.png"
+   },
+   {
+      name: "Seafood Meuniere",
+      category: "entree",
+      description: "Rich butter flanks fresh seafood. The secret ingredient is lots and lots of love.",
+      image: "./assets/images/seafoodMeuniere.png"
+   },
+   {
+      name: "Porgy Meuniere",
+      category: "entree",
+      description: "Popular among residents of coastal regions, this juicy porgy is a delish dish.",
+      image: "./assets/images/porgyMeuniere.png"
+   },
+   {
+      name: "Salmon Meuniere",
+      category: "entree",
+      description: "The crispy skin of this fried hearty salmon puts its texture in a class all its own.",
+      image: "./assets/images/salmonMeuniere.png"
+   },
+   {
+      name: "Fruit and Mushroom Mix",
+      category: "side-dish",
+      description: "This dish contrasts the sweetness of fruit with the savoriness of mushrooms.",
+      image: "./assets/images/fruitAndMushroomMix.png"
+   },
+   {
+      name: "Simmered Fruit",
+      category: "side-dish",
+      description: "This sweet dish is made by heaping tasty fruits into a pan and simmering until tender.",
+      image: "./assets/images/simmeredFruit.png"
+   },
+   {
+      name: "Copious Simmered Fruit",
+      category: "side-dish",
+      description: "This sweet dish is made by heaping tasty fruits into a pan and simmering until tender.",
+      image: "./assets/images/copiousSimmeredFruit.png"
+   },
+   {
+      name: "Simmered Tomato",
+      category: "side-dish",
+      description: "When simmered until tender, nutritious tomatoes can give this dish a sour kick.",
+      image: "./assets/images/simmeredTomato.png"
+   },
+   {
+      name: "Simmered Tomato",
+      category: "entree",
+      description: "A colorful dish, a bounty of fruit simmered with fresh tomatoes.",
+      image: "./assets/images/fruityTomatoStew.png"
+   },
+   {
+      name: "Tomato Mushroom Stew",
+      category: "entree",
+      description: "A dish of fragrant mushrooms simmered with tomato. Healthy and rich in fiber.",
+      image: "./assets/images/tomatoMushroomStew.png"
+   },
+   {
+      name: "Tomato Seafood Soup",
+      category: "entree",
+      description: "Seafood simmered with tomato full of intense flavor",
+      image: "./assets/images/tomatoSeafoodSoup.png"
+   },
+   {
+      name: "Cream of Vegetable Soup",
+      category: "entree",
+      description: "Made by simmering vegetables in milk, this healthy dish is as simple as its ingredients.",
+      image: "./assets/images/creamOfVegetableSoup.png"
+   },
     {
         name: "Milk",
         category: "beverage",
