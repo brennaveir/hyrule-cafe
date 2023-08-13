@@ -73,6 +73,8 @@ a {
 
 .filter-btn {
     margin: 10px;
+    border-radius: 10px;
+    background-color: darkcyan;
 }
 
 .menu-section {
